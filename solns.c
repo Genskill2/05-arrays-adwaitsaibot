@@ -10,7 +10,7 @@ int max(int x[],int k)
       c=x[i];
   }
   return(c);
-  printf("%d",c)
+  printf("%d",c);
 }
 
 int min(int a[],int n)
