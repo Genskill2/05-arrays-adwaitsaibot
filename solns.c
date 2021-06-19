@@ -2,14 +2,15 @@
 #include <stdio.h>
 int max(int x[],int k)
 {
-  int t,i;
-  t=x[0];
+  int c,i;
+  c=x[0];
   for(i=1;i<k;i++)
   {
-    if(x[i]>t)
-      t=x[i];
+    if(x[i]>c)
+      c=x[i];
   }
-  return(t);
+  return(c);
+  printf("%d",c)
 }
 
 int min(int a[],int n)
